@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+
+# SQLite DB
+db/*.db
+
+# Rasa cache
+.rasa/
+.results/
