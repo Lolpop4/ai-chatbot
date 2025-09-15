@@ -1,0 +1,21 @@
+intents:
+  - greet
+  - goodbye
+  - report_outbreak
+  - ask_info
+
+entities:
+  - disease
+  - location
+
+responses:
+  utter_greet:
+    - text: "Hello! 👋 I am HealthBot. How can I help?"
+  utter_goodbye:
+    - text: "Goodbye, take care!"
+  utter_ask_info:
+    - text: "You can ask me about symptoms, vaccination, or report outbreaks."
+
+actions:
+  - action_report_outbreak
+  - action_save_message

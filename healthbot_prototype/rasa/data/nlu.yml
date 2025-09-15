@@ -1,0 +1,18 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+- intent: goodbye
+  examples: |
+    - bye
+    - see you later
+- intent: report_outbreak
+  examples: |
+    - There is [malaria](disease) in [Delhi](location)
+    - [Dengue](disease) outbreak in [Mumbai](location)
+- intent: ask_info
+  examples: |
+    - Tell me about COVID
+    - Symptoms of malaria
